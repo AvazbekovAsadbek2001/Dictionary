@@ -1,17 +1,33 @@
 <template>
-  <div>
-    <h1>Welcome to Dictionary App</h1>
-    <p>Bu yerda siz subjectlar va so‘zlarni boshqarishingiz mumkin.</p>
-    <router-link to="/subjects">Go to Subjects</router-link>
-  </div>
+  <div class="flex items-center justify-center min-h-screen">
+    <Card class="w-1/2 mt-[10%]">
+      <template #title>
+        <h2 class="text-center font-bold m-0 pb-3">Dictionary</h2>
+      </template>
+      <template #content>
+        <p class="m-0 text-center">
+          A guide to learning a new language and memorizing new words. This is a perfect guide to repeating words frequently and reinforcing old knowledge.
+        </p>
+      </template>
+      <template #footer>
+        <div class="flex gap-4 mt-1 justify-center">
+          <Button label="Start" severity="primary" variant="outlined" class="w-[90%]" />
+        </div>
+      </template>
+    </Card>
+</div>
+
 </template>
 
 <script setup>
-// Hozircha hech qanday JS kodi kerak emas
+import { useRouter } from 'vue-router'
+import Card from 'primevue/card';
+import Button from 'primevue/button';
+
+const router = useRouter()
+
 </script>
 
 <style scoped>
-h1 {
-  color: #2c3e50;
-}
+/* Qo'shimcha maxsus stillar kerak bo'lsa shu yerga qo'shishingiz mumkin */
 </style>
