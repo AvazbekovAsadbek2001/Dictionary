@@ -1,6 +1,6 @@
 <template>
   <div class="flex items-center justify-center min-h-screen">
-    <Card class="w-1/2 mt-[10%]">
+    <Card class="w-1/2 mt-[-10%]">
       <template #title>
         <h2 class="text-center font-bold m-0 pb-3">Dictionary</h2>
       </template>
