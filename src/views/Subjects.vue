@@ -8,11 +8,11 @@
 
       <template #content>
         <!-- Add Button -->
-        <div class="flex justify-end mb-4">
+        <!-- <div class="flex justify-end mb-4">
           <RouterLink to="/subjects/add">
             <Button label="+ Add Subject" icon="pi pi-plus" class="p-button-success" />
           </RouterLink>
-        </div>
+        </div> -->
 
         <!-- Subjects List -->
         <ul class="divide-y divide-gray-200 rounded-lg border border-gray-200">

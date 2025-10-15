@@ -11,7 +11,7 @@
       </template>
       <template #footer>
         <div class="flex gap-4 mt-1 justify-center">
-          <Button label="Start" severity="primary" variant="outlined" class="w-[90%]" />
+          <Button label="Start" severity="primary" variant="outlined" class="w-[90%]" @click="router.push({ name: 'Subjects' })"/>
         </div>
       </template>
     </Card>
